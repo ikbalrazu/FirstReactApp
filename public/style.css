@@ -1,0 +1,34 @@
+
+.card{
+    background: darkgray;
+    text-align: center;
+    padding: 1px;
+    box-shadow: 4px 4px 4px darkorange;
+    border-radius: 10px;
+    margin: 30px;
+    width: 200px;
+    display: inline-block;
+    
+}
+
+.Emname{
+    background: black;
+    color:white;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.Status{
+    color: brown;
+}
+
+.card2{
+    background: darkgray;
+    text-align: center;
+    padding: 1px;
+    box-shadow: 4px 4px 4px darkorange;
+    border-radius: 10px;
+    margin: 30px;
+    width: 200px;
+    display: inline-block;
+}

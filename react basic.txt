@@ -1,0 +1,60 @@
+class Course{
+state= {
+name: "React Course",
+duration: "2 hours",
+price: "200"
+};
+
+render(){
+   return (
+     <div className="Course">
+        <Details name={this.state.name} duration={this.state.duration} />
+     </div>
+
+)
+}
+}
+ --------------------------------------
+
+function Details(props){
+return (
+<div className="Details">
+Course Name: {props.name}
+<Duration duration={props.duration} />
+</div>
+)
+}
+
+*react ekta component hobe ekta class
+*react e ekta webpage onekgulo component er somonoye gotitho
+
+npx create-react-app my-app
+cd my-app
+npm start
+
+what is JSX?
+jsx hocche moloto amra html er code javascript e dekhte parbo.
+JSX stands for JavaScript XML
+JSX allows us to write and add HTML in React
+Js Expression: JSX er moto amra abar js expression o bobohar korte parbo.
+
+const ekta keyword jeter maddome amra variable declare kore thaki.
+
+How to use CSS with JSX/css styling in JSX:
+1. Inline styling
+2. CSS stylesheet
+* public folder e css file sohoje access kora jai kono rokom import chara but src folder e css file rakhle seta access korar jono amader ke import kore nite hoy js file e
+
+how to create and use component?
+
+use component with App.js
+
+props and destructuring (props: how to value pass through the component)
+
+adding / mapping data to components:
+how to add data with component.
+make jason data and then set to component
+
+
+
+
